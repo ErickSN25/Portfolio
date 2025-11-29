@@ -74,7 +74,6 @@ html {
 .logo-icon {
     width: 40px;
     height: 40px;
-    background: linear-gradient(135deg, #22c55e, #16a34a);
     border-radius: 8px;
     display: flex;
     align-items: center;
@@ -90,7 +89,8 @@ html {
 .logo-text {
     font-size: 1.25rem;
     font-weight: 700;
-    color: #cad2e4;
+    color: #6f1762
+;
 }
 
 .nav-menu {
@@ -105,7 +105,7 @@ html {
     top: 100%;
     left: 0;
     right: 0;
-    background: white;
+    background: #0D1117;
     padding: 1rem;
     border-top: 1px solid #e5e7eb;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -126,7 +126,8 @@ html {
 }
 
 .nav-link {
-    color: #cad2e4;
+    color: #6f1762
+;
     text-decoration: none;
     font-weight: 500;
     transition: color 0.3s ease;
@@ -154,7 +155,7 @@ html {
     display: block;
     width: 24px;
     height: 2px;
-    background: #1f2937;
+    background: rgb(215, 181, 207);
     position: relative;
     transition: background 0.3s ease;
 }
@@ -165,7 +166,7 @@ html {
     position: absolute;
     width: 24px;
     height: 2px;
-    background: #1f2937;
+    background: rgb(215, 181, 207);
     left: 0;
     transition: transform 0.3s ease;
 }
@@ -196,7 +197,7 @@ html {
 
 .hero {
     padding: 8rem 0 4rem;
-    background: linear-gradient(135deg, #0D1117 0%, #142a66 100%);
+    background: linear-gradient(135deg, #21081d 0%, #6f1762 100%);
 }
 
 @media (min-width: 768px) {
@@ -227,7 +228,7 @@ html {
     font-size: 2.5rem;
     font-weight: 700;
     line-height: 1.2;
-    color: #cad2e4;
+    color: rgb(215, 181, 207);
 }
 
 @media (min-width: 768px) {
@@ -244,7 +245,7 @@ html {
 
 .hero-description {
     font-size: 1.125rem;
-    color: #89a1c2;
+    color: #982988;
     line-height: 1.8;
 }
 
@@ -273,7 +274,7 @@ html {
 }
 
 .image-placeholder {
-    background: linear-gradient(135deg, #d1edfa, #a7b9f3);
+    background: linear-gradient(135deg, #0D1117, #35022d);
     border-radius: 1rem;
     padding: 2rem;
     text-align: center;
@@ -315,13 +316,13 @@ html {
 .image-label {
     font-size: 1.125rem;
     font-weight: 600;
-    color: #03031d;
+    color: #646d51;
     margin-top: 1rem;
 }
 
 .image-sublabel {
     font-size: 0.875rem;
-    color: #03031da9;
+    color: #646d51;
     margin-top: 0.5rem;
 }
 
@@ -345,34 +346,34 @@ html {
 }
 
 .landing-btn-primary {
-    background: #cad2e4;
-    color: #0D1117 ;
+    background: #982988;
+    color: #3b3339 ;
     min-width: 10rem;
-    box-shadow: 0 10px 15px -3px rgba(202, 210, 228, 1);
+    box-shadow: 0 10px 15px -3px rgb(141, 24, 127);
 }
 
 .landing-btn-primary:hover {
-    background-color: #010813 ;
-    box-shadow: 0 20px 25px -5px rgba(1, 8, 19, 1);
+    background-color: #21081d ;
+    box-shadow: 0 20px 25px -5px #21081d;
     transform: translateY(-2px);
-    color: #cad2e4;
-    border: 2px solid #cad2e4
+    color: #646d51;
+    border: 2px solid #646d51
 
 }
 
 .landing-btn-secondary {
-    background: #010813 ;
-    color: #cad2e4;
-    border: 2px solid #cad2e4;
+    background: #21081d ;
+    color: #646d51;
+    border: 2px solid #646d51;
     min-width: 10rem;
 }
 
 .landing-btn-secondary:hover {
-    background: #cad2e4;
-    color:#0D1117;
-    box-shadow: 0 20px 25px -5px #cad2e4;
+    background: #982988;
+    color:#3b3339;
+    box-shadow: 0 20px 25px -5px rgb(141, 24, 127);
     transform: translateY(-2px);
-    border: #cad2e4;
+    border: #646d51;
 }
 
 .landing-btn-cta {
@@ -410,12 +411,12 @@ html {
 .section-title {
     font-size: 2rem;
     font-weight: 700;
-    color: #cad2e4;
+    color: #646d51;
     margin-bottom: 1rem;
 }
 
 .section-title.light {
-    color: white;
+    color: #646d51;
 }
 
 @media (min-width: 768px) {
@@ -426,23 +427,23 @@ html {
 .section-divider-page {
     width: 100%;
     height: 4px;
-    background: #cad2e4;
+    background: #646d51;
 }
 
 .section-divider {
     width: 96px;
     height: 4px;
-    background: #cad2e4;
+    background: #3b3339;
     margin: 0 auto 1.5rem;
 }
 
 .section-divider.light {
-    background: #cad2e4;
+    background: #3b3339;
 }
 
 .section-subtitle {
     font-size: 1.125rem;
-    color: #d1d5db;
+    color: #646d51;
     max-width: 48rem;
     margin: 0 auto;
 }
@@ -488,16 +489,16 @@ html {
         "title title"
         "text image";
     gap: 2rem;
-    background: #f9fafb;
+    background: #cbdcec;
     border-radius: 0.75rem;
     padding: 2rem;
-    border: 1px solid #e5e7eb;
+    border: 1px solid #646d51;
     margin-bottom: 2rem;
     align-items: center;
 }
 
 .project-card.main-card {
-    background: #f9fafb;
+    background: #0D1117;
 }
 
 .project-card.accent-card {
@@ -508,7 +509,7 @@ html {
 .card-title {
     font-size: 1.5rem;
     font-weight: 700;
-    color: #111827;
+    color: #646d51;
     margin-bottom: 1rem;
     grid-column: 1 / -1;
     text-align: center;
@@ -523,7 +524,7 @@ html {
 
 .card-text {
     font-size: 1.125rem;
-    color: #374151;
+    color: #574c56;
     line-height: 1.8;
     margin-bottom: 1rem;
     grid-area: text;
@@ -551,7 +552,7 @@ html {
 
 .features {
     padding: 2rem 0;
-    background-color: #03031d;
+    background-color: #150112;
 }
 
 @media (min-width: 768px) {
@@ -596,7 +597,7 @@ html {
 .feature-icon {
     width: 56px;
     height: 56px;
-    background: #cad2e4;
+    background: #0D1117;
     border-radius: 0.5rem;
     display: flex;
     align-items: center;
@@ -608,12 +609,12 @@ html {
 .feature-title {
     font-size: 1.25rem;
     font-weight: 700;
-    color: white;
+    color: #646d51;
     margin-bottom: 0.75rem;
 }
 
 .feature-description {
-    color: #d1d5db;
+    color: #574c56;
     line-height: 1.6;
 }
 
@@ -682,12 +683,14 @@ html {
         align-items: center;
         font-size: 1rem;
         font-weight: 700;
-        background-color: #cad2e4;
-        color: #03031d; 
+        background-color: #21081d;
+        color: rgb(215, 181, 207); 
         margin: 4rem auto 2rem;
         width: auto;
         box-shadow: #cad2e4;
         max-width: 40%;
+        border-radius: 0.75rem;
+        border: 1px solid #646d51;
         }
 }
 
@@ -706,12 +709,14 @@ html {
 
     font-size: 2rem;
     font-weight: 700;
-    background-color: #cad2e4;
-    color: #03031d;
+    background-color: #46043c;
+    color: rgb(215, 181, 207);
     margin: auto;
     /* border: 1px solid #e5e7eb;*/
     width: 50%;
     box-shadow: #cad2e4;
+    border-radius: 0.75rem;
+    border: 1px solid #646d51;
 }
 
 .team-grid {
@@ -730,8 +735,8 @@ html {
 }
 
 .team-card {
-    background: linear-gradient(135deg, #d1edfa, #a7b9f3);
-    border: 1px solid #e5e7eb;
+    background: linear-gradient(135deg, #46043c, #21081d);
+    border: 1px solid #646d51;
     border-radius: 1rem;
     padding: 2rem;
     justify-content: center;
@@ -747,7 +752,7 @@ html {
 .team-avatar {
     width: 96px;
     height: 96px;
-    background-color: #010813;
+    background-color: #891477;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -758,40 +763,41 @@ html {
 .avatar-initials {
     font-size: 1.875rem;
     font-weight: 700;
-    color: white;
+    color: rgb(215, 181, 207);
 }
 
 .team-name {
     font-size: 1.5rem;
     font-weight: 700;
-    color: #111827;
+    color: rgb(215, 181, 207);
     margin-bottom: 0.5rem;
 }
 
 .team-role {
     font-size: 1rem;
     font-weight: 600;
-    color: #010813;
+    color: rgb(215, 181, 207);
     margin-bottom: 1rem;
 }
 
 .team-description {
-    color: #374151;
+    color: rgb(215, 181, 207);
     line-height: 1.6;
 }
 
 .about-footer {
     max-width: 48rem;
     margin: 0 auto;
-    background: #1f2937;
+    background: #21081d;
     border-radius: 1rem;
     padding: 2rem;
     text-align: center;
+    border: 1px solid #646d51;
 }
 
 .about-footer-text {
     font-size: 1.125rem;
-    color: #e5e7eb;
+    color: rgb(215, 181, 207);
     line-height: 1.8;
 }
 
@@ -809,7 +815,7 @@ html {
 .cta-title {
     font-size: 2rem;
     font-weight: 700;
-    color: #142a66;
+    color: rgb(215, 181, 207);
     margin-bottom: 1rem;
 }
 
@@ -847,26 +853,25 @@ html {
 .project{
     padding: 4rem 0;
     /**/
-    background: linear-gradient(427.5deg, #0D1117 0%, #142a66 100%);
+    background: linear-gradient(427.5deg, #0D1117 0%, #35022d 100%);
 }
 
 
 .about {
-        padding: 4rem;
-        width: 100%;
-        height: auto;
-        background-image: url('image/binario.gif;');
+    
+        
+        background: url('image/binario2.gif');
     }
 
 .cta {
     padding: 4rem 0;
-    background: linear-gradient(360deg, #0D1117 0%, #142a66 100%,#0D1117 100%);
+    background: linear-gradient(360deg, #35022d 0%, #6f1762 100%,#35022d 100%);
     text-align: center;
     ;
 }
 
 .footer {
-    background-color: #0D1117;
+    background-color: #35022d;
     color: #cad2e4;
     padding: 2rem 0;
     text-align: center;
@@ -881,7 +886,7 @@ html {
 }
 
 .footer-contact {
-    color: white !important;
+    color: rgb(215, 181, 207) !important;
 }
 
 .footer-text {
