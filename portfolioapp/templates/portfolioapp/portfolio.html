@@ -42,7 +42,7 @@
                 <div class="hero-text">
                     <h1 class="hero-title">Erick Soares</h1>
                     <p class="hero-description">
-                        A verdadeira grandeza não está no que criamos, mas no que inspiramos.
+                        "A verdadeira grandeza não está no que criamos, mas no que inspiramos." —Nikola Tesla—
                     </p>
                     <div class="hero-buttons">
                         <a href="#project" class="landing-btn landing-btn-primary">Projetos</a>
@@ -60,76 +60,7 @@
         </div>
     </section>
 
-    <!-- Project Section -->
-     <!--
-    <section class="project" id="project">
-        <div class="landing-container">
-            <div class="section-header">
-                <h2 class="section-title">Meus Projetos</h2>
-                <div class="section-divider"></div>
-            </div>
 
-            <div class="project-content">
-                <div class="project-card main-card">
-                    <h3 class="card-title">Trabalho de Conclusão de Curso</h3>
-                    <p class="card-text">
-                        O <strong>SmartFeeder </strong> é um sistema de alimentação automática para animais de estimação
-                        desenvolvido como projeto de TCC. Combinando hardware e software, o alimentador oferece uma solução
-                        completa para o cuidado automatizado de pets.
-                    </p>
-                    <p class="card-text">
-                        Utilizando tecnologias de Internet das Coisas (IoT), o sistema permite que tutores programem horários
-                        de alimentação, controlem porções e monitorem o consumo alimentar de seus animais remotamente através
-                        de um aplicativo intuitivo.
-                    </p>
-                    <h3 class="card-title">Trabalho de Conclusão de Curso</h3>
-                    <p class="card-text">
-                        O <strong>SmartFeeder </strong> é um sistema de alimentação automática para animais de estimação
-                        desenvolvido como projeto de TCC. Combinando hardware e software, o alimentador oferece uma solução
-                        completa para o cuidado automatizado de pets.
-                    </p>
-                    <br>
-                    <p class="card-text">
-                        Utilizando tecnologias de Internet das Coisas (IoT), o sistema permite que tutores programem horários
-                        de alimentação, controlem porções e monitorem o consumo alimentar de seus animais remotamente através
-                        de um aplicativo intuitivo.
-                    </p>
-                    <br>
-                    <h3 class="card-title">Trabalho de Conclusão de Curso</h3>
-                    <p class="card-text">
-                        O <strong>SmartFeeder </strong> é um sistema de alimentação automática para animais de estimação
-                        desenvolvido como projeto de TCC. Combinando hardware e software, o alimentador oferece uma solução
-                        completa para o cuidado automatizado de pets.
-                    </p>
-                    <br>
-                    <p class="card-text">
-                        Utilizando tecnologias de Internet das Coisas (IoT), o sistema permite que tutores programem horários
-                        de alimentação, controlem porções e monitorem o consumo alimentar de seus animais remotamente através
-                        de um aplicativo intuitivo.
-                    </p>
-                </div>
-
-                <div class="project-grid">
-                    <div class="project-card accent-card">
-                        <h4 class="card-subtitle">Objetivo</h4>
-                        <p class="card-text">
-                            Proporcionar praticidade e segurança alimentar para pets, garantindo refeições regulares mesmo
-                            quando os tutores não estão em casa.
-                        </p>
-                    </div>
-                    <div class="project-card accent-card">
-                        <h4 class="card-subtitle">Tecnologia</h4>
-                        <p class="card-text">
-                            Sistema embarcado com conectividade WiFi, controle via aplicativo web e automação programável
-                            com interface amigável.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
-
-    <!-- Features Section -->
     <div class="section-divider-page"></div>
     <section class="features" id="features">
         <div class="landing-container">
@@ -256,7 +187,7 @@
                 <div class="section-divider"></div>
             </div>
             <div class="project-content">
-                <div class="project-card main-card">
+                <div class="project-card">
                     <h3 class="card-title">Trabalho de Conclusão de Curso</h3>
 
                         <p class="card-text">
@@ -350,6 +281,8 @@
        
         const navToggle = document.getElementById('nav-toggle');
         const navMenu = document.getElementById('nav-menu');
+        const imgs = document.querySelectorAll('.project-image');
+
 
         navToggle.addEventListener('click', function() {
             navMenu.classList.toggle('show');
@@ -389,6 +322,12 @@
                     });
                 }
             });
+        });
+
+        imgs.forEach(img => {
+        img.addEventListener('click', () => {
+        img.classList.toggle('zoomed');
+        });
         });
     </script>
 </body>
