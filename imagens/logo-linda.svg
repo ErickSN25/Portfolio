@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="400" height="400">
+  <defs>
+    <linearGradient id="softPurple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#9b5cf6"></stop>
+      <stop offset="100%" stop-color="#d4b3ff"></stop>
+    </linearGradient>
+  </defs>
+
+  <path d="
+      M 60 50
+      Q 75 35, 110 35
+      H 150
+
+      M 60 100
+      H 145
+
+      M 60 150
+      Q 75 165, 110 165
+      H 150
+    " fill="none" stroke="url(#softPurple)" stroke-width="10" stroke-linecap="round"></path>
+</svg>
